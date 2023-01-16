@@ -1,4 +1,4 @@
-package com.example.java.abstraction.project.payment.system;
+package com.example.java.abstraction.project.payment.system.internal;
 
 import java.math.BigDecimal;
 

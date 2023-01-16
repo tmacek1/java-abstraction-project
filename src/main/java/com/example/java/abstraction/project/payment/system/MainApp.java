@@ -1,9 +1,9 @@
-package com.example.java.abstraction.project;
+package com.example.java.abstraction.project.payment.system;
 
-import com.example.java.abstraction.project.payment.system.CommissionEmployee;
-import com.example.java.abstraction.project.payment.system.ContractingCompany;
-import com.example.java.abstraction.project.payment.system.PaymentSystem;
-import com.example.java.abstraction.project.payment.system.SalaryEmployee;
+import com.example.java.abstraction.project.payment.system.internal.CommissionEmployee;
+import com.example.java.abstraction.project.payment.system.internal.ContractingCompany;
+import com.example.java.abstraction.project.payment.system.internal.PaymentSystem;
+import com.example.java.abstraction.project.payment.system.internal.SalaryEmployee;
 
 import java.math.BigDecimal;
 
