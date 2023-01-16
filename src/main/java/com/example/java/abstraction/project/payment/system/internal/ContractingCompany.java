@@ -4,8 +4,8 @@ import java.math.BigDecimal;
 
 public class ContractingCompany implements Payee {
 
-    private String name;
-    private Integer bankAccount;
+    private final String name;
+    private final Integer bankAccount;
     private BigDecimal currentBalance;
 
     public ContractingCompany(String name, Integer bankAccount) {

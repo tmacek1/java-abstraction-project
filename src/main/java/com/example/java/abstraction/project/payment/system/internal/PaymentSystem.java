@@ -6,7 +6,7 @@ import java.util.List;
 
 public class PaymentSystem {
 
-    private List<Payee> payees;
+    private final List<Payee> payees;
 
     public PaymentSystem() {
         this.payees = new ArrayList<>();
