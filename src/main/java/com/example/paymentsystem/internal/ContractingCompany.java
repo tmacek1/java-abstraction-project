@@ -8,7 +8,7 @@ public class ContractingCompany implements Payee {
     private final Integer bankAccount;
     private BigDecimal currentBalance;
 
-    public ContractingCompany(String name, Integer bankAccount) {
+    public ContractingCompany(final String name, final Integer bankAccount) {
         this.name = name;
         this.bankAccount = bankAccount;
         currentBalance = new BigDecimal(0);

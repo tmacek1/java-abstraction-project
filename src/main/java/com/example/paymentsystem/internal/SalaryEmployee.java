@@ -6,8 +6,9 @@ public class SalaryEmployee extends Employee {
 
     public SalaryEmployee(final String name,
                           final Integer bankAccount,
-                          final BigDecimal grossWage) {
-        super(name, bankAccount, grossWage);
+                          final BigDecimal grossWage,
+                          final BigDecimal allowance) {
+        super(name, bankAccount, grossWage, allowance);
     }
 
     @Override

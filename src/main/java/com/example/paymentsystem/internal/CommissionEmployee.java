@@ -10,9 +10,11 @@ public class CommissionEmployee extends Employee {
 
     public CommissionEmployee(final String name,
                               final Integer bankAccount,
-                              final BigDecimal grossWage) {
-        super(name, bankAccount, grossWage);
+                              final BigDecimal grossWage,
+                              final BigDecimal allowance) {
+        super(name, bankAccount, grossWage, allowance);
     }
+
 
     @Override
     public BigDecimal grossPayment() {
@@ -35,4 +37,5 @@ public class CommissionEmployee extends Employee {
                 grossWage.multiply(BigDecimal.valueOf(percentage / 100.0))
                         .multiply(BigDecimal.valueOf(BONUS_MULTIPLIER)));
     }
+
 }

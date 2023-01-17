@@ -13,8 +13,8 @@ public class MainApp {
         PaymentSystem paymentSystem = new PaymentSystem();
 
         // handle employees
-        CommissionEmployee jSmith = new CommissionEmployee("John Smith", 12345, new BigDecimal(300));
-        SalaryEmployee tFitzgerald = new SalaryEmployee("Tammy Fitzgerald", 22223, new BigDecimal(500));
+        CommissionEmployee jSmith = new CommissionEmployee("John Smith", 12345, new BigDecimal(300), new BigDecimal(100));
+        SalaryEmployee tFitzgerald = new SalaryEmployee("Tammy Fitzgerald", 22223, new BigDecimal(500), new BigDecimal(25));
         paymentSystem.addPayee(jSmith);
         paymentSystem.addPayee(tFitzgerald);
         jSmith.giveCommission(new BigDecimal(50));
