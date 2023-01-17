@@ -8,4 +8,4 @@ mvn package
 java -cp target/java-abstraction-project-1.0-SNAPSHOT.jar com.example.paymentsystem.MainApp
 
 ### Class diagram for the project
-![CLASSDIAG](PaymentSystemClassDiag.png)
+![CLASSDIAG](ClassDiag.png)
